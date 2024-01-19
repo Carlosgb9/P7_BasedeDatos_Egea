@@ -1,0 +1,159 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".RegisterActivity">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/my_toolbar" style="@style/Widget.MaterialComponents.Toolbar.Primary" android:layout_width="0dp" android:layout_height="?attr/actionBarSize" android:background="#2196F3" android:elevation="4dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:title="@string/toolbar_title"/>
+    <ScrollView android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvIdCardLabel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/id_card"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etIdCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/id_card_hint"
+                android:inputType="text"
+                android:textColorHint="#A1887F"
+                android:textSize="24sp"
+                tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/tvPersonalData"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/personal_data"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:textColorHint="#A1887F"
+                android:textSize="24sp"
+                tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/etSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/surname"
+                android:inputType="text"
+                android:textColorHint="#A1887F"
+                android:textSize="24sp"
+                tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/tvCyclesLabel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cycles"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spCycles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/tvCoursesLabel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/courses"
+                android:textSize="24sp" />
+
+            <RadioGroup
+                android:id="@+id/rgCourses"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbFirst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/first"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <RadioButton
+                    android:id="@+id/rbSecond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/second"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:id="@+id/trARU"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/bAdd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/add" />
+
+                        <Button
+                            android:id="@+id/bRemove"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/remove" />
+
+                        <Button
+                            android:id="@+id/bUpdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/update" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/trFind"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/bFindDni"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/find_dni" />
+
+                        <Button
+                            android:id="@+id/bFindCycle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/find_cycle" />
+
+                        <Button
+                            android:id="@+id/bFindCourse"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/find_course" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Course Register</string>
+    <string name="toolbar_title">Register</string>
+    <string name="id_card">Id card</string>
+    <string name="id_card_hint">Enter id card here</string>
+    <string name="personal_data">Personal data</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="cycles">Cycles</string>
+    <string name="courses">Courses</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="update">Actualitzar</string>
+    <string name="find_dni">FIND BY DNI</string>
+    <string name="find_cycle">FIND BY CYCLE</string>
+    <string name="find_course">FIND BY COURSE</string>
+    <string name="student_updated_successfully">Student updated successfully!</string>
+    <string name="id_card_is_missing">Id card is missing.</string>
+    <string name="student_added_successfully">Student added successfully!</string>
+    <string name="student_deleted_successfully">Student deleted successfully!</string>
+    <string name="name_is_missing">Name is missing.</string>
+    <string name="surname_is_missing">Surname is missing.</string>
+    <string name="student_not_found">Student with ID card %1$s not found.</string>
+    <string name="student_found">Student found by ID card: %1$s %2$s</string>
+    <string name="error_student_exists">Error adding student. The student with ID card %1$s already exists.</string>
+    <string name="error_student_not_found_delete">Error deleting student. The student with ID card %1$s does not exist.</string>
+    <string name="error_student_not_found_update">Error updating student. The student with ID card %1$s does not exist.</string>
+</resources>

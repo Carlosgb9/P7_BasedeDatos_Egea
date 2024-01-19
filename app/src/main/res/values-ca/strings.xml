@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Registre del Curs</string>
+    <string name="toolbar_title">Registre</string>
+    <string name="id_card">DNI</string>
+    <string name="id_card_hint">Entra el DNI</string>
+    <string name="personal_data">Dades personals</string>
+    <string name="name">Nom</string>
+    <string name="surname">Cognoms</string>
+    <string name="cycles">Cicles</string>
+    <string name="courses">Cursos</string>
+    <string name="first">Primer</string>
+    <string name="second">Segon</string>
+    <string name="add">Insertar</string>
+    <string name="remove">Eliminar</string>
+    <string name="update">Actualitzar</string>
+    <string name="find_dni">CERCAR PER DNI</string>
+    <string name="find_cycle">CERCAR PER CICLE</string>
+    <string name="find_course">CERCAR PER CURS</string>
+    <string name="student_updated_successfully">Estudiant actualitzat exitosament!</string>
+    <string name="id_card_is_missing">No es troba el DNI</string>
+    <string name="student_added_successfully">Estudiant afegit exitosament!</string>
+    <string name="student_deleted_successfully">Estudiant esborrat exitosament!</string>
+    <string name="name_is_missing">Manca el nom.</string>
+    <string name="surname_is_missing">Manca el cognom.</string>
+    <string name="student_not_found">Estudiant amb DNI: %1$s no es troba.</string>
+    <string name="student_found">Estudiant trobat per DNI: %1$s %2$s</string>
+    <string name="error_student_exists">Error en afegir l\'estudiant. L\'estudiant amb el DNI %1$s ja existeix.</string>
+    <string name="error_student_not_found_delete">Error en suprimir l\'estudiant. L\'estudiant amb el DNI %1$s no existeix.</string>
+    <string name="error_student_not_found_update">Error en actualitzar l\'estudiant. L\'estudiant amb el DNI %1$s no existeix.</string>
+</resources>
